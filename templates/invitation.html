@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>Bonjour {{ invited.first_name }} {{ invited.last_name }} si tel est réellement ton nom !</p>
+    <p>{{ user.first_name }} {{ user.last_name }} vient de te créer un compte dans l'application Meeting</p>
+    <p>Tes identifiants sont : </p>
+    <p>- Username: {{ invited.username }}</p>
+    <p>- Password: {{ password }}</p>
+    <p>- Mais tu peux changer ces informations.</p>
+    <a href="">Consulte notre API</a>
+</body>
+</html>
